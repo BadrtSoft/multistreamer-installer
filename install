@@ -179,7 +179,7 @@ fi
 
 printf "Cloning/updating multistreamer...\n" | tee -a $MISC_LOGFILE
 if ! test -d /opt/multistreamer ; then
-  git clone https://github.com/jprjr/multistreamer.git /opt/multistreamer >> $MISC_LOGFILE 2>&1
+  git clone https://github.com/BadrtSoft/multistreamer_12.2.1.git /opt/multistreamer >> $MISC_LOGFILE 2>&1
 else
   pushd /opt/multistreamer
   git fetch --tags origin >> $MISC_LOGFILE 2>&1
